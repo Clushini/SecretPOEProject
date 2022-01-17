@@ -125,27 +125,3 @@ export async function priceItems(items) {
 
   return Promise.raceAll(promises, 5000, null)
 }
-
-// Item Class: Unknown
-// Rarity: Rare
-// Onslaught Touch
-// Silk Gloves
-// --------
-// Energy Shield: 19
-// --------
-// Requirements:
-// Level: 47
-// Dex: 47
-// Int: 76
-// --------
-// Sockets: B-B-G-B 
-// --------
-// Item Level: 35
-// --------
-// Trigger Word of Force on Hit (enchant)
-// --------
-// +18 to maximum Life
-// +22% to Fire Resistance
-// +23% to Cold Resistance
-// +12% to Lightning Resistance
-

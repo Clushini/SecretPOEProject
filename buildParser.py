@@ -47,7 +47,7 @@ jsonObj["SkillGroups"] = []
 jsonObj["Keystones"] = json.dumps(dataclasses.asdict(keystones))
 
 for item in items:
-    jsonObj["Items"].append(json.dumps(dataclasses.asdict(item)))
+    jsonObj["Items"].append(dataclasses.asdict(item))
 
 for group in skillGroups:
     jsonObj["SkillGroups"].append(json.dumps(dataclasses.asdict(group)))
